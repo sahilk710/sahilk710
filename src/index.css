@@ -122,6 +122,34 @@ body {
   left: 0;
   font-weight: 400;
   text-transform: uppercase;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.tech-labels {
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  z-index: 1;
+  pointer-events: none;
+  padding: 0 40px;
+}
+
+.tech-label {
+  padding: 8px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(4px);
+  background: rgba(255, 255, 255, 0.05);
 }
 
 @media screen and (min-width: 768px) {

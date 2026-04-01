@@ -167,9 +167,19 @@ const TechStack = () => {
     );
   }, []);
 
+  const techNames = [
+    "Python", "TensorFlow", "Docker", "AWS",
+    "Snowflake", "Neo4j", "Streamlit", "FastAPI",
+  ];
+
   return (
     <div className="techstack">
       <h2>My Tech Stack</h2>
+      <div className="tech-labels">
+        {techNames.map((name) => (
+          <span key={name} className="tech-label">{name}</span>
+        ))}
+      </div>
 
       <Canvas
         shadows
