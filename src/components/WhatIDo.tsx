@@ -91,7 +91,7 @@ const WhatIDo = () => {
               <h4>LLMs, RAG & Knowledge Graphs</h4>
               <p>
                 Building scalable AI/ML systems with LLMs, RAG pipelines, and
-                knowledge-graph augmented solutions that transform complex data
+                knowledge-graph-augmented solutions that transform complex data
                 into actionable insights and reduce operational overhead.
               </p>
               <h5>Skillset & tools</h5>
