@@ -3,33 +3,34 @@ import "./styles/Work.css";
 import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
+const base = import.meta.env.BASE_URL;
 const projects = [
   {
     title: "SkillMatchAI",
     category: "AI-Powered Job Recommendation System",
     tools: "OpenAI Embeddings, Pinecone, Airflow, FastAPI, Streamlit",
-    image: "/images/skillmatchai.png",
+    image: `${base}images/skillmatchai.png`,
     link: "https://github.com/sahilk710/jobzilla-ai",
   },
   {
     title: "NVIDIA RAG Insights",
     category: "RAG-Based Financial Analysis Platform",
     tools: "RAG, Snowflake, Vector Search, dbt, Interactive Dashboards",
-    image: "/images/nvidia_rag.png",
+    image: `${base}images/nvidia_rag.png`,
     link: "https://github.com/sahilk710/Sec-Financial-Data-Pipeline",
   },
   {
     title: "SummarAIze",
     category: "PDF Summarization & QA AI",
     tools: "GPT, Claude, LiteLLM, FastAPI, Redis, Streamlit",
-    image: "/images/summaraize.png",
+    image: `${base}images/summaraize.png`,
     link: "https://github.com/sahilk710/Customer-Support-Email-Agent",
   },
   {
     title: "MarketMindAI",
     category: "AI-Powered Market Intelligence",
     tools: "Python, NLP, ML Pipelines, Data Analytics, Visualization",
-    image: "/images/marketmindai.png",
+    image: `${base}images/marketmindai.png`,
     link: "https://github.com/sahilk710/MarketMindAI-",
   },
 ];

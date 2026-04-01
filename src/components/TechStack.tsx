@@ -12,15 +12,16 @@ import {
 } from "@react-three/rapier";
 
 const textureLoader = new THREE.TextureLoader();
+const base = import.meta.env.BASE_URL;
 const imageUrls = [
-  "/images/python.svg",
-  "/images/tensorflow.svg",
-  "/images/docker.svg",
-  "/images/aws.svg",
-  "/images/snowflake.svg",
-  "/images/neo4j.svg",
-  "/images/streamlit.svg",
-  "/images/fastapi.svg",
+  `${base}images/python.svg`,
+  `${base}images/tensorflow.svg`,
+  `${base}images/docker.svg`,
+  `${base}images/aws.svg`,
+  `${base}images/snowflake.svg`,
+  `${base}images/neo4j.svg`,
+  `${base}images/streamlit.svg`,
+  `${base}images/fastapi.svg`,
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
@@ -199,7 +200,7 @@ const TechStack = () => {
           ))}
         </Physics>
         <Environment
-          files="/models/char_enviorment.hdr"
+          files={`${base}models/char_enviorment.hdr`}
           environmentIntensity={0.5}
           environmentRotation={[0, 4, 2]}
         />
