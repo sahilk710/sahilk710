@@ -175,11 +175,6 @@ const TechStack = () => {
   return (
     <div className="techstack">
       <h2>My Tech Stack</h2>
-      <div className="tech-labels">
-        {techNames.map((name) => (
-          <span key={name} className="tech-label">{name}</span>
-        ))}
-      </div>
 
       <Canvas
         shadows
@@ -218,6 +213,11 @@ const TechStack = () => {
           <N8AO color="#0f002c" aoRadius={2} intensity={1.15} />
         </EffectComposer>
       </Canvas>
+      <div className="tech-labels">
+        {techNames.map((name) => (
+          <span key={name} className="tech-label">{name}</span>
+        ))}
+      </div>
     </div>
   );
 };
