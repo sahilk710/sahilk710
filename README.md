@@ -7,7 +7,8 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge)](https://sahilk710.github.io/sahilk710/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sahil-kasliwal/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/sahilk710)
-[![Resume](https://drive.google.com/file/d/1wZNja7jJKJk-daqgmUTs1Dd2H7aE6BHb/view?usp=drive_link)
+[![Resume]([![Resume](https://img.shields.io/badge/Resume-Download-red?style=for-the-badge)](https://drive.google.com/file/d/1wZNja7jJKJk-daqgmUTs1Dd2H7aE6BHb/view?usp=drive_link)
+)
 
 ---
 
